@@ -1,0 +1,22 @@
+{
+  "name": "codestrips",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "albert",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "sqlite3": "^4.2.0",
+    "structured": "^0.1.2",
+    "supertest": "^4.0.2"
+  }
+}
