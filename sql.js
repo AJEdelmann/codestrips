@@ -2,7 +2,7 @@ const sqlite3 = require('sqlite3');
 const db = new sqlite3.Database('./db.sqlite');
 
 db.serialize(() => {
-    db.run(`DROP TABLE IF EXISTS Strips`);
+    db.run(`DROP TABLE IF EXISTS Strip`);
     db.run(`CREATE TABLE IF NOT EXISTS Strip(
         id INTEGER PRIMARY KEY,
         head TEXT NOT NULL,

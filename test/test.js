@@ -1,4 +1,4 @@
-process.env.PORT = 8081;
+process.env.PORT = 4001;
 process.env.TEST_DATABASE = './test/test.sqlite';
 
 const {expect, assert} = require('chai');
